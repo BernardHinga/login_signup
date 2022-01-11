@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.register {
+    border: 2px solid;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.register label {
+    padding-bottom: 5px;
+    letter-spacing: 1.5px;
+}
+
+.register input {
+    border: none;
+    border-bottom: 1px solid;
+    margin: 5px;
+}
+
+.register button {
+    width: fit-content;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid rgb(49, 190, 233);
+    border-radius: 10px;
+}
