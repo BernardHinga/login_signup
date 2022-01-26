@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Signup() {
     return(
-        <div className="register">
+        <div className="signup">
             <label>FirstName</label>
             <input type='text' />
             <label>LastName</label>

@@ -4,29 +4,37 @@
     box-sizing: border-box;
 }
 
-.register {
+.login {
     border: 2px solid;
-    display: grid;
-    place-items: center;
     padding: 10px;
     margin: 25px;
+    background: rgb(255, 187, 0);
 }
 
-.register label {
+.login label {
     padding-bottom: 5px;
     letter-spacing: 1.5px;
 }
 
-.register input {
+.login input {
     border: none;
     border-bottom: 1px solid;
     margin: 5px;
 }
 
-.register button {
+.input {
+    display: grid;
+    place-items: center;
+}
+
+.login button {
     width: fit-content;
     padding: 10px;
     margin: 20px;
     border: 2px solid rgb(49, 190, 233);
     border-radius: 10px;
+}
+
+.image img {
+    width: 50%;
 }
