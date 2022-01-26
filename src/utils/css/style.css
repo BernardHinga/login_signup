@@ -41,10 +41,14 @@ button:hover {
     padding: 50px;
 }
 
-.input_img img {
-    width: 100%;
-    display: grid;
-    place-content: center;
+.logo img {
+    width: 110%;
+}
+
+@media screen and (max-width: 991px) {
+    .logo img {
+        width: 100px;
+    }
 }
 
 .input {
