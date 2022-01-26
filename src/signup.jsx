@@ -25,6 +25,7 @@ export default function Signup() {
                         <input type="text" placeholder="Username" />
                         <input type="email" placeholder="E-mail" />
                         <input type="password" placeholder="Password" />
+                        <input type="password" placeholder="Repeat Password" />
                         <button>Sign Up</button>
                     </div>
                 </div>
