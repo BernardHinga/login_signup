@@ -12,9 +12,7 @@ export default function Login() {
                         <img src={image1} alt="bbb" />
                     </div>
                     <div className="col-sm-12 col-lg-6 input">
-                        {/* <input type="text" placeholder="Name" /> */}
                         <input type="text" placeholder="Username" />
-                        {/* <input type="email" placeholder="E-mail" /> */}
                         <input type="password" placeholder="Password" />
                         <button>Log In</button>
                     </div>
