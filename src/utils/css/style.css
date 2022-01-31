@@ -73,7 +73,7 @@ button:hover {
 
 .form {
     background-color: rgb(42, 42, 42);
-    width: max-content;
+    width: auto;
     /* padding: 35px; */
 }
 
@@ -81,14 +81,18 @@ button:hover {
     padding: 50px;
 }
 
-.logo img {
-    width: 110%;
+.logo svg {
+    width: 100%;
 }
 
 @media screen and (max-width: 991px) {
-    .logo img {
-        width: 100px;
+    .logo svg {
+        margin: 0;
     }
+}
+
+#logo-l {
+    margin: 50px;
 }
 
 .input {
